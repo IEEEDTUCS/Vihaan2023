@@ -412,7 +412,7 @@ header.smaller:not(.header-bottom):not(.side-header) .header-extra {
   display: inline-block;
 }
 .logo-small {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 header.de_header_2 {
@@ -1336,13 +1336,22 @@ section.custom-1 {
   height: auto;
 }
 
+.first_screen {
+  height: 100vh;
+}
+
 /* ================================================== */
 /* footer */
 /* ================================================== */
 footer {
   background: #101010;
   color: #ccc;
-  padding: 80px 0 0 0;
+  padding: 20px 0 20px 0;
+}
+
+.withlove{
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 footer h3,
