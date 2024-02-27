@@ -1346,12 +1346,17 @@ section.custom-1 {
 footer {
   background: #101010;
   color: #ccc;
-  padding: 20px 0 20px 0;
+  padding: 20px 0 0 0;
+  height: 160px;
 }
 
-.withlove{
-  margin-top: auto;
-  margin-bottom: auto;
+/* 2024 footer fix */
+footer .text-md-left {
+  padding-top: 40px;
+}
+
+footer .text-md-right {
+  padding-top: 40px;
 }
 
 footer h3,
@@ -8265,6 +8270,23 @@ i.btn-action-hide {
     .pricing-box {
       margin-bottom: 30px;
     }
+
+    /* 2024 footer fix */
+    footer .text-md-left {
+      padding: 0 0 0 0;
+    }
+    footer .text-md-right {
+      padding: 0 0 0 0;
+    }
+    footer .logo-small {
+      padding: 0 0 0 0;
+      margin-bottom: 0;
+    }
+    footer {
+      margin-top: 30px;
+      padding: 0 0 0 0;
+      height: 290px;
+    }
   }
 
   /* -------------------------------------------------- 
@@ -8274,6 +8296,22 @@ i.btn-action-hide {
     .pf_full_width .item {
       float: left;
       width: 100% !important;
+    }
+    /* 2024 footer fix for mobile view*/
+    footer .text-md-left {
+      padding: 0 0 0 0;
+    }
+    footer .text-md-right {
+      padding: 0 0 0 0;
+    }
+    footer .logo-small {
+      padding: 0 0 0 0;
+      margin-bottom: 0;
+    }
+    footer {
+      margin-top: 30px;
+      padding: 0 0 0 0;
+      height: 310px;
     }
 
     /*.item{
